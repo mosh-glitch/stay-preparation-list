@@ -1,4 +1,16 @@
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+body { background: #f5f4f0; font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', sans-serif; }
+```
+
+---
+
+### app/layout.tsx
+
 ```tsx
 import type { Metadata } from 'next'
 import './globals.css'
