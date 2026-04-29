@@ -1,29 +1,12 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-* { box-sizing: border-box; }
-body { background: #f5f4f0; font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', sans-serif; }
-```
-
----
-
-### app/layout.tsx
-
-```tsx
-import type { Metadata } from 'next'
-import './globals.css'
-
-export const metadata: Metadata = {
-  title: '大城家 GW準備リスト',
-  description: 'GW民泊お泊まり準備チェックリスト',
+* {
+  box-sizing: border-box;
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    
-      {children}
-    
-  )
+body {
+  background: #f5f4f0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', sans-serif;
 }
